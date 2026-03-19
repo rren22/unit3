@@ -9,7 +9,7 @@ var svg = d3.select("body")
     .attr("height", height);
 
 // load data
-d3.csv("data/cities.csv").then(function(data) {
+d3.csv("data/MegaCities.csv").then(function(data) {
 
     // convert numbers
     data.forEach(function(d) {
