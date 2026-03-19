@@ -1,0 +1,18 @@
+/* SVG styling */
+svg {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+/* Bubble styling */
+circle {
+    stroke: #333;
+    stroke-width: 1px;
+}
+
+/* Text labels */
+text {
+    fill: black;
+    font-size: 10px;
+    text-anchor: middle;
+}
