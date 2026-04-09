@@ -1,18 +1,41 @@
 /* SVG styling */
-svg {
+/* svg {
     background-color: white;
     border: 1px solid #ccc;
-}
+} */
 
 /* Bubble styling */
-circle {
+/* circle {
     stroke: #333;
     stroke-width: 1px;
-}
+} */
 
 /* Text labels */
-text {
+/* text {
     fill: black;
     font-size: 10px;
     text-anchor: middle;
+} */
+
+
+#map-container {
+    width: 960px;
+    height: 600px;
+    border: 1px solid #ccc;
 }
+
+
+/* SVG styling */
+svg {
+    background-color: #f0f8ff;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 20px auto;
+}
+
+/* State styling */
+.state {
+    stroke: #333;
+    stroke-width: 0.5px;
+}
+
